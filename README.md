@@ -9,7 +9,7 @@ A lightweight, modular, fair-play **all-in-one Minecraft Java Edition utility mo
 - Loader: **Fabric 0.20.1**
 - Fabric API: **0.166.0+26.3**
 - Java: **25**
-- Gradle/Loom: **Gradle 9.6.0** / **Loom 1.19-SNAPSHOT**
+- Gradle/Loom: **Gradle 9.8.2** / **Loom 1.19-SNAPSHOT**
 
 ## Vision
 One client-side mod with independent modules for:
@@ -27,13 +27,13 @@ One client-side mod with independent modules for:
 Not a hacked client. Nivra will not include combat automation, x-ray, packet spoofing, anti-cheat bypasses, or unsolicited chat/command spam.
 
 ## Build
-Requires JDK 25 and Gradle 9.6.0:
+Requires JDK 25 and Gradle 9.8.2:
 
 ```bash
-gradle build
+bash ./gradlew build
 ```
 
-A Gradle wrapper will be included as the foundation is finalized. Never install an unverified binary from unofficial sources.
+Gradle wrapper files are sourced from the official Fabric example mod (26.3 branch).
 
 Client JARs will be written to `build/libs/` after a successful build. **No build success is claimed at repository initialization.**
 

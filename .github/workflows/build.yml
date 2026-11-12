@@ -17,10 +17,8 @@ jobs:
           distribution: temurin
           java-version: '25'
       - uses: gradle/actions/setup-gradle@v4
-        with:
-          gradle-version: '9.6.0'
       - name: Build Nivra Client
-        run: gradle build
+        run: bash ./gradlew build
       - name: Upload JARs
         if: success()
         uses: actions/upload-artifact@v4
