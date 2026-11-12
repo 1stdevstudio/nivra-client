@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "nivra",
+  "version": "${version}",
+  "name": "Nivra Client",
+  "description": "A modular, fair-play, client-side utility mod for Minecraft Java servers.",
+  "authors": ["1stdevstudio"],
+  "contact": {
+    "sources": "https://github.com/1stdevstudio/nivra-client",
+    "issues": "https://github.com/1stdevstudio/nivra-client/issues"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.nivra.client.NivraClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
